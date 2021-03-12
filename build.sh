@@ -13,5 +13,5 @@ CROSS_COMPILE=aarch64-linux-gnu- \
 CLANG_TRIPLE=aarch64-linux-gnu- \
 CC=clang \
 LD=ld.lld"
-make ${args} haydn-qgki_defconfig
+make ${args} haydn_defconfig
 make ${args} 2>&1 | tee build.log
